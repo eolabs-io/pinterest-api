@@ -1,0 +1,65 @@
+{
+    "items": [
+      {
+        "ad_group_id": "2680059592705",
+        "android_deep_link": "string",
+        "carousel_android_deep_links": [
+          "string"
+        ],
+        "carousel_destination_urls": [
+          "string"
+        ],
+        "carousel_ios_deep_links": [
+          "string"
+        ],
+        "click_tracking_url": "string",
+        "creative_type": "REGULAR",
+        "destination_url": "string",
+        "ios_deep_link": "string",
+        "is_pin_deleted": false,
+        "is_removable": false,
+        "name": "string",
+        "pin_id": "394205773611545468",
+        "status": "ACTIVE",
+        "tracking_urls": {
+          "impression": [
+            "URL1",
+            "URL2"
+          ],
+          "click": [
+            "URL1",
+            "URL2"
+          ],
+          "engagement": [
+            "URL1",
+            "URL2"
+          ],
+          "buyable_button": [
+            "URL1",
+            "URL2"
+          ],
+          "audience_verification": [
+            "URL1",
+            "URL2"
+          ]
+        },
+        "view_tracking_url": "string",
+        "ad_account_id": "549755885175",
+        "campaign_id": "626735565838",
+        "collection_items_destination_url_template": "string",
+        "created_time": 1451431341,
+        "id": "687195134316",
+        "rejected_reasons": [
+          "HASHTAGS"
+        ],
+        "rejection_labels": [
+          "string"
+        ],
+        "review_status": "PENDING",
+        "type": "pinpromotion",
+        "updated_time": 1451431341,
+        "summary_status": "APPROVED"
+      }
+    ],
+    "bookmark": null
+  }
