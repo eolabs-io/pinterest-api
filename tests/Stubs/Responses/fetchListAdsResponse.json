@@ -18,7 +18,7 @@
         "ios_deep_link": "string",
         "is_pin_deleted": false,
         "is_removable": false,
-        "name": "string",
+        "name": "ad-name",
         "pin_id": "394205773611545468",
         "status": "ACTIVE",
         "tracking_urls": {

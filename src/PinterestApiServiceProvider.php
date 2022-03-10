@@ -8,7 +8,9 @@ use EolabsIo\PinterestApi\Domain\AdAccounts\ListAds;
 use EolabsIo\PinterestApi\Domain\AdAccounts\AdAnalytics;
 use EolabsIo\PinterestApi\Domain\AdAccounts\ListAdGroups;
 use EolabsIo\PinterestApi\Domain\AdAccounts\AdAccountAnalytics;
+use EolabsIo\PinterestApi\Domain\AdAccounts\Command\ListAdsCommand;
 use EolabsIo\PinterestApi\Domain\AdAccounts\Command\AdInsightsCommand;
+use EolabsIo\PinterestApi\Domain\AdAccounts\Command\ListAdGroupsCommand;
 use EolabsIo\PinterestApi\Domain\AdAccounts\Providers\AdAccountsServiceProvider;
 
 class PinterestApiServiceProvider extends ServiceProvider
@@ -34,6 +36,8 @@ class PinterestApiServiceProvider extends ServiceProvider
             // Registering package commands.
             $this->commands([
                 AdInsightsCommand::class,
+                ListAdsCommand::class,
+                ListAdGroupsCommand::class,
             ]);
         }
     }
